@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FalaSérie</string>
+    <string-array name="array_series">
+        <item>La Casa de Papel</item>
+        <item>Altered Carbon</item>
+        <item>Once</item>
+        <item>Stranger Things</item>
+        <item>The Society</item>
+        <item>The Hauting</item>
+        <item>Sabrina</item>
+    </string-array>
+
+    <string-array name="array_descricao">
+        <item> Oito ladrões se trancam com reféns na Casa da Moeda da Espanha. Seu líder manipula a
+            polícia para realizar um plano que pode ser o maior roubo da história ou uma missão em vão.</item>
+        <item> Com o avanço tecnológico, os humanos podem transferir suas mentes para outros corpos, domando assim a morte. Nesse mundo futurista, um soldado que passou 250
+            anos em hibernação é trazido de volta com a missão de resolver um assassinato.</item>
+        <item> A história de um mundo novo, onde contos de fadas e vida moderna colidem. Emma Swan está feliz com sua vida; seu filho Henry, que ela deixou há mais de dez anos,
+            reaparece e acha que ela é a filha de Branca de Neve e do Príncipe Encantado.</item>
+        <item> Um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do
+            governo e se aventuram em dimensões paralelas.</item>
+        <item> Todo mundo desaparece da próspera cidade de West Ham, menos os adolescentes. Para sobreviver,
+            eles agora precisam organizar a sua própria sociedade.</item>
+        <item> Entre o passado e o presente, uma família abalada confronta memórias assustadoras de seu antigo
+            lar e dos eventos aterrorizantes que os expulsaram de lá.</item>
+        <item> Sabrina Spellman luta com sua natureza dupla - metade bruxa, metade mortal - enquanto se levanta contra as forças do mal que a ameaçam,
+            sua família e o mundo humano.</item>
+    </string-array>
+</resources>

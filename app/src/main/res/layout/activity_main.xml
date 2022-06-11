@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo">
+</ImageView>
+
+    <ImageView
+        android:id="@+id/logoTxt"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_falaserie">
+</ImageView>
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="60dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="#D30D0D"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:textColorLink="#D30D0D"/>
+
+    <TextView
+        android:id="@+id/textViewSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textSize="16dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="#F80000"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Não possui cadastro? Inscreva-se aqui."
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:linksClickable="true"/>
+
+
+
+</LinearLayout>
